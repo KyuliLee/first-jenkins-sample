@@ -1,5 +1,5 @@
 package com.example.demo;
 
 public class Hello {
-    String today = "march 6th";
+    String today = "march 6th while turning on jenkins";
 }

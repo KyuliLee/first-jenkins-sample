@@ -8,8 +8,10 @@ public class HelloController {
     
 //    @GetMapping(value = "/", produces = {MediaType.APPLICATION_JSON_UTF_VALUE})
 //    @GetMapping(value = "/", produces = {MediaType.APPLICATION_JSON})
+//    @GetMapping(value = "/")
     @GetMapping(value = "/")
     public Hello home() {
         return new Hello();
     }
+
 }

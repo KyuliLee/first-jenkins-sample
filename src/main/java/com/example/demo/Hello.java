@@ -6,5 +6,8 @@ public class Hello {
     public String getToday(){
         return today;
     }
+    public void setTody(){
+        this.today = "today by setter";
+    }
 
 }
